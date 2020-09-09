@@ -13,9 +13,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data Access Layer", "Data A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library.BLL", "Library.BLL\Library.BLL.csproj", "{F54B5CD8-B3A7-4650-9019-245E17482B47}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Libraty.BLL.interface", "Libraty.BLL.interface\Libraty.BLL.interface.csproj", "{4DCC6DFB-FDBA-4AD3-9349-96E584795791}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library.BLL.Interface", "Libraty.BLL.interface\Library.BLL.Interface.csproj", "{4DCC6DFB-FDBA-4AD3-9349-96E584795791}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library.DAL.interface", "Library.DAL.interface\Library.DAL.interface.csproj", "{A364DB09-48E6-4167-BD42-BE4EC3A773E5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library.DAL.Interface", "Library.DAL.interface\Library.DAL.Interface.csproj", "{A364DB09-48E6-4167-BD42-BE4EC3A773E5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{63C7BFD3-F26D-48A5-A563-959F2E64CBF3}"
 EndProject

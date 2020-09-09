@@ -55,17 +55,17 @@
       <Project>{f54b5cd8-b3a7-4650-9019-245e17482b47}</Project>
       <Name>Library.BLL</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Library.DAL.interface\Library.DAL.interface.csproj">
+    <ProjectReference Include="..\Library.DAL.interface\Library.DAL.Interface.csproj">
       <Project>{a364db09-48e6-4167-bd42-be4ec3a773e5}</Project>
-      <Name>Library.DAL.interface</Name>
+      <Name>Library.DAL.Interface</Name>
     </ProjectReference>
     <ProjectReference Include="..\Library.DAL\Library.DAL.csproj">
       <Project>{9db2f434-cb7e-49ac-aaef-05a2da5e58f4}</Project>
       <Name>Library.DAL</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Libraty.BLL.interface\Libraty.BLL.interface.csproj">
+    <ProjectReference Include="..\Libraty.BLL.interface\Library.BLL.Interface.csproj">
       <Project>{4dcc6dfb-fdba-4ad3-9349-96e584795791}</Project>
-      <Name>Libraty.BLL.interface</Name>
+      <Name>Library.BLL.Interface</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

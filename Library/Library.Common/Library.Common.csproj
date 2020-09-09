@@ -41,7 +41,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Author.cs" />
+    <Compile Include="AuthorsBook.cs" />
+    <Compile Include="Book.cs" />
+    <Compile Include="File.cs" />
+    <Compile Include="FilesBook.cs" />
+    <Compile Include="Genre.cs" />
+    <Compile Include="GenresBook.cs" />
+    <Compile Include="Image.cs" />
+    <Compile Include="ImagesBook.cs" />
+    <Compile Include="Roles.cs" />
+    <Compile Include="User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

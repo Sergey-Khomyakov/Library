@@ -41,13 +41,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="AuthorRepository.cs" />
+    <Compile Include="BookRepository.cs" />
+    <Compile Include="FileRepository.cs" />
+    <Compile Include="GenreRepository.cs" />
+    <Compile Include="ImageRepository.cs" />
+    <Compile Include="RolesRepository.cs" />
+    <Compile Include="UserRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Library.DAL.interface\Library.DAL.interface.csproj">
+    <ProjectReference Include="..\Library.Common\Library.Common.csproj">
+      <Project>{a12529f5-98b9-4577-9fe2-1c93f468ceca}</Project>
+      <Name>Library.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Library.DAL.interface\Library.DAL.Interface.csproj">
       <Project>{a364db09-48e6-4167-bd42-be4ec3a773e5}</Project>
-      <Name>Library.DAL.interface</Name>
+      <Name>Library.DAL.Interface</Name>
     </ProjectReference>
     <ProjectReference Include="..\Library.Entity Framework\Library.Entity Framework.csproj">
       <Project>{a512d2a0-591e-4793-a13b-6e7acfda306f}</Project>

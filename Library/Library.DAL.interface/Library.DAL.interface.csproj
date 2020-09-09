@@ -41,7 +41,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="IAuthorRepository.cs" />
+    <Compile Include="IBookRepository.cs" />
+    <Compile Include="IFileRepository.cs" />
+    <Compile Include="IGenreRepository.cs" />
+    <Compile Include="IImageRepository.cs" />
+    <Compile Include="IRolesRepository.cs" />
+    <Compile Include="IUserRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
