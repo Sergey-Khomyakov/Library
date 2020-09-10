@@ -41,7 +41,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="AuthorService.cs" />
+    <Compile Include="BookService.cs" />
+    <Compile Include="FileService.cs" />
+    <Compile Include="GenreService.cs" />
+    <Compile Include="ImageService.cs" />
+    <Compile Include="RolesService.cs" />
+    <Compile Include="UserService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -49,13 +55,13 @@
       <Project>{a12529f5-98b9-4577-9fe2-1c93f468ceca}</Project>
       <Name>Library.Common</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Library.DAL.interface\Library.DAL.interface.csproj">
+    <ProjectReference Include="..\Library.DAL.interface\Library.DAL.Interface.csproj">
       <Project>{a364db09-48e6-4167-bd42-be4ec3a773e5}</Project>
-      <Name>Library.DAL.interface</Name>
+      <Name>Library.DAL.Interface</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Libraty.BLL.interface\Libraty.BLL.interface.csproj">
+    <ProjectReference Include="..\Libraty.BLL.interface\Library.BLL.Interface.csproj">
       <Project>{4dcc6dfb-fdba-4ad3-9349-96e584795791}</Project>
-      <Name>Libraty.BLL.interface</Name>
+      <Name>Library.BLL.Interface</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

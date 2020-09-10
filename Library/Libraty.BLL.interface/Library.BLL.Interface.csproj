@@ -21,6 +21,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <LangVersion>8.0</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -29,6 +30,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <LangVersion>8.0</LangVersion>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -41,7 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="IAuthorService.cs" />
+    <Compile Include="IBookService.cs" />
+    <Compile Include="IFileService.cs" />
+    <Compile Include="IGenreService.cs" />
+    <Compile Include="IImageService.cs" />
+    <Compile Include="IRolesService.cs" />
+    <Compile Include="IUserService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -49,9 +57,9 @@
       <Project>{a12529f5-98b9-4577-9fe2-1c93f468ceca}</Project>
       <Name>Library.Common</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Library.DAL.interface\Library.DAL.interface.csproj">
+    <ProjectReference Include="..\Library.DAL.interface\Library.DAL.Interface.csproj">
       <Project>{a364db09-48e6-4167-bd42-be4ec3a773e5}</Project>
-      <Name>Library.DAL.interface</Name>
+      <Name>Library.DAL.Interface</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
